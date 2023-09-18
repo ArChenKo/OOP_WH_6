@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Console {
     public void inputConsole(){
-        order.setClientName(prompt("Client name: "));
-        order.setProduct(prompt("Product: "));
-        order.setQnt(Integer.parseInt(prompt("Quantity: ")));
-        order.setPrice(Integer.parseInt(prompt("Price: ")));
+        order.setClientName(prompt("Имя клиента: "));
+        order.setProduct(prompt("Название товара: "));
+        order.setQnt(Integer.parseInt(prompt("Кол-во: ")));
+        order.setPrice(Integer.parseInt(prompt("Цена: ")));
     }
     private String prompt(String message) {
         Scanner in = new Scanner(System.in);
